@@ -5,25 +5,54 @@ body {
 }
 
 .heading {
+  width:1500px;
+top:0
+left:0
+width:100%;
+padding:0 20px;
+border-bottom:2px solid#222;
+
+  position:fixed;
 }
 
 .heading h1 {
+  margin:10px 0;
 }
 
 .box {
+  width:32%;
+  padding:3%;
+  float:left;
+  margin-right: 1.5%;
+  margin-bottom: 100px;
 }
 
 .box:last-child {
+  margin-right: 0;
 }
 
 .box h2 {
 }
 
 .box img {
+  width:100%;
 }
 
 .box a.read-more {
+  display:block;
+  margin-top:5px;
+  padding-top:10px;
+  border-top:1px solid#ccc;
+
 }
 
 .footer {
+  width:1200px;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:0 20px;
+  border-top:2px solid#eee;
+
 }
